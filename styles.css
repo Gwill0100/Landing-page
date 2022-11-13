@@ -1,23 +1,21 @@
 .flex-container {
-   display: flex; 
-}
+   display: flex;
+ }
+ 
+ .flex-container div {
+   height: 80px;
+   background: #1f2937;
+   flex: 1;  
+ }
 
-.flex-container .one {
-   font-size: 18px;
-   align-self: flex-end;
-   color: #F9FAF8;
+ .two {
+   word-spacing: 25px;
+   color: #F9FAf8;
    text-align: center;
-  background-color: #1f2937;
-   flex: 1;
 }
 
-.flex-container .two {
-   color: #F9FAF8;
-background-color: #1f2937;
-flex: 1;
+.one {
+   font-size: 20px;
+   color: #e5e7eb;
+   text-align: center;
 }
-
-.space {
-word-spacing: 20px;
-}
-
