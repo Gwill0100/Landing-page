@@ -1,0 +1,23 @@
+.flex-container {
+   display: flex; 
+}
+
+.flex-container .one {
+   font-size: 18px;
+   align-self: flex-end;
+   color: #F9FAF8;
+   text-align: center;
+  background-color: #1f2937;
+   flex: 1;
+}
+
+.flex-container .two {
+   color: #F9FAF8;
+background-color: #1f2937;
+flex: 1;
+}
+
+.space {
+word-spacing: 20px;
+}
+
