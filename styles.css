@@ -3,6 +3,7 @@
  }
  
  .flex-container div {
+   border: 3px solid brown;
    height: 80px;
    background: #1f2937;
    flex: 1;  
@@ -19,3 +20,24 @@
    color: #e5e7eb;
    text-align: center;
 }
+
+.flex-container2 {
+   display: flex;
+ }
+ 
+ .flex-container2 div {
+   flex-direction: column;
+   height: 500px;
+   border: 3px solid brown;
+   background: #1f2937;
+   flex: 1;  
+ }
+
+.A {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   font-weight: 800;
+ color: #F9FAF8
+}
+
