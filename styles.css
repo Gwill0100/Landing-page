@@ -41,3 +41,12 @@
  color: #F9FAF8
 }
 
+.B {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-height: 300px;
+}
