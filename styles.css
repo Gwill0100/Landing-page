@@ -52,6 +52,12 @@
   max-height: 300px;
 }
 
+.signup {
+background-color: #3882f6;
+margin-left: 430px;
+margin-right: 430px;
+}
+
 .flex-container3 {
   display: flex;
   border: 3px solid brown;
@@ -101,6 +107,7 @@ img {
 
   .flex-container6 {
     display: flex;
+    background-color: #e5e7eb ;
     flex-direction: column;
     border: 3px solid brown;
     height: 400px;
@@ -122,3 +129,38 @@ img {
     margin: 120px;
   }
 
+  .flex-container7 {
+    height: 400px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    border: 3px solid brown;
+    flex: 1;  
+    justify-content: center
+  }
+
+  .flex-container7 div {
+    height: 150px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    border: 3px solid brown;
+    flex: 1;  
+    justify-content: center
+  }
+
+  .bed {
+    font-style: italic;
+    margin-left: 50px;
+    color: white;
+    font-size: 36px;
+    background-color:#3882F6;
+  }
+
+  .table {
+    font-style: italic;
+    margin-right: 50px;
+    color: white;
+    font-size: 36px;
+    background-color:#3882F6;
+  }
