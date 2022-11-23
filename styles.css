@@ -3,7 +3,6 @@
  }
  
  .flex-container div {
-   border: 3px solid brown;
    height: 80px;
    background: #1f2937;
    flex: 1;  
@@ -29,7 +28,6 @@
  .flex-container2 div {
    flex-direction: column;
    height: 500px;
-   border: 3px solid brown;
    background: #1f2937;
    flex: 1;  
  }
@@ -60,7 +58,6 @@ margin-right: 430px;
 
 .flex-container3 {
   display: flex;
-  border: 3px solid brown;
   justify-content: center;
 }
 
@@ -77,7 +74,6 @@ color: #1F2937 ;
 
 .flex-container4 div {
   display: flex;
-  border: 3px solid brown;
   height: 300px;
   flex: 1;  
   justify-content: center
@@ -90,7 +86,6 @@ img {
 
   .flex-container5 {
     display: flex;
-    border: 3px solid brown;
     height: 250px;
     flex: 1; 
   }
@@ -100,7 +95,6 @@ img {
     font-size: 36px;
     font-style: italic;
     color: #1F2937
-    border: 3px solid brown;
     flex: 1;  
     justify-content: center
   }
@@ -109,7 +103,6 @@ img {
     display: flex;
     background-color: #e5e7eb ;
     flex-direction: column;
-    border: 3px solid brown;
     height: 400px;
     flex: 1; 
   }
@@ -117,7 +110,6 @@ img {
   .flex-container6 div {
     align-items: center;
     display: flex;
-    border: 3px solid brown;
     flex: 1;  
     justify-content: center
   }
@@ -134,7 +126,6 @@ img {
     align-items: center;
     flex-direction: row;
     display: flex;
-    border: 3px solid brown;
     flex: 1;  
     justify-content: center
   }
@@ -144,13 +135,14 @@ img {
     align-items: center;
     flex-direction: row;
     display: flex;
-    border: 3px solid brown;
     flex: 1;  
     justify-content: center
   }
 
   .bed {
     font-style: italic;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     margin-left: 50px;
     color: white;
     font-size: 36px;
@@ -159,8 +151,27 @@ img {
 
   .table {
     font-style: italic;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     margin-right: 50px;
     color: white;
-    font-size: 36px;
+    font-size: 70px;
     background-color:#3882F6;
   }
+
+  .flex-container8 {
+    display: flex;
+  }
+  
+  .flex-container8 div {
+    height: 80px;
+    background: #1f2937;
+    flex: 1;  
+  }
+
+  .copy {
+text-align: center;
+color: #e5e7eb;
+font-size: 20px;
+  }
+  
